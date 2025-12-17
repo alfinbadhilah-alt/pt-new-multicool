@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT. New MultiCool</title>
+    <title>"Spesialist Pendingin"</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #003c7c;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        section {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .service-item {
+            width: 30%;
+            margin: 10px;
+            text-align: center;
+        }
+        .service-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        @media (max-width: 768px) {
+            .service-item {
+                width: 100%;
+            }
+        }
+        .slider {
+            overflow: hidden;
+            width: 100%;
+            border-radius: 10px;
+        }
+        .slides {
+            display: flex;
+            animation: slide 12s infinite;
+        }
+        .slides img {
+            width: 100%;
+            flex-shrink: 0;
+        }
+        @keyframes slide {
+            0% { transform: translateX(0); }
+            33% { transform: translateX(-100%); }
+            66% { transform: translateX(-200%); }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PT. New MultiCool</h1>
+        <h1>"Specialist Pendingin"</h1>
+        <p>Jasa Service Bongkar Pasang AC Mobil Terpercaya</p>
+    </header>
+
+    <section id="about">
+        <h2>Tentang Kami</h2>
+        <p>PT. New MultiCool adalah spesialis dalam jasa service, bongkar pasang, dan perbaikan AC mobil. Dengan pengalaman bertahun-tahun, kami menyediakan layanan profesional untuk menjaga kenyamanan berkendara Anda. Kami menggunakan teknologi terkini dan suku cadang berkualitas untuk memastikan AC mobil Anda berfungsi optimal.</p>
+    </section>
+
+    <section id="services">
+        <h2>Layanan Kami</h2>
+        <div class="services">
+            <div class="service-item">
+                <img src="images/Bongkar Pasang.jpeg" alt="Bongkar Pasang AC Mobil">
+                <h3>Bongkar Pasang AC Mobil</h3>
+                <p>Layanan cepat dan aman untuk bongkar pasang komponen AC mobil, termasuk evaporator, kompresor, dan kondensor.</p>
+            </div>
+            <div class="service-item">
+                <img src="images/Perbaikan.jpeg" alt="Perbaikan AC Mobil">
+                <h3>Perbaikan AC Mobil</h3>
+                <p>Diagnosa dan perbaikan masalah AC seperti kebocoran freon, kerusakan kipas, atau masalah elektrik.</p>
+            </div>
+            <div class="service-item">
+                <img src="images/Maintenance.jpeg" alt="Maintenance AC Mobil">
+                <h3>Maintenance Rutin</h3>
+                <p>Pembersihan, pengisian freon, dan pemeriksaan berkala untuk mencegah kerusakan dan menjaga efisiensi AC.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak Kami</h2>
+        <p>Hubungi kami untuk konsultasi atau booking layanan:</p>
+        <ul>
+            <li>Alamat: Jl. Gatot Subroto Kab. Sepatan, Tangerang Banten, Des. Pondok Jaya</li>
+            <li>Telepon: +62 821-2546-6724</li>
+            <li>Email: alfinnurbadhilah@gmail.com</li>
+            <li>Jam Operasional: Senin - Sabtu, 08:00 - 18:00 WIB</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 PT. New MultiCool "Spesialist Pendingin". Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>
